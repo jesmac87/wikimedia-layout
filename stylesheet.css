@@ -1,0 +1,36 @@
+.pic {
+	display: inline-block;
+	width: 135px;
+	height: 155px;
+	margin: 38px;
+}
+
+#welcome{
+	text-align: right;
+}
+
+div{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+footer{
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+hr{
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+ul{
+	text-align: center;
+	list-style: none;
+}
+
+li{
+	display: inline;
+	margin: 10px;
+}
