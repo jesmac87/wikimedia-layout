@@ -1,36 +1,86 @@
-.pic {
-	display: inline-block;
-	width: 135px;
-	height: 155px;
-	margin: 38px;
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 15px;
+	box-sizing: border-box;
 }
 
-#welcome{
+header {
+	height: 25%;
+	width: 100%;
+	overflow: auto;
+}
+
+.head{
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.body {
+	height: 70%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer {
+	width: 100%;
+	height: 5%;
+	padding: 5px;
+	text-align: center;
+	border-top: solid grey 1px;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+li {
+	height: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.footer-top {
+	height: 50%;
+	margin: 0;
+	font-size: 10px;
+}
+
+.footer-bottom {
+	height: 50%;
+	margin: 0;
+	font-size: 10px;
+}
+
+p {
+	margin: 0;
+}
+
+.image-container {
+	width: 25%;
+	height: 25%;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+#welcome {
 	text-align: right;
 }
 
-div{
-	margin-left: 200px;
-	margin-right: 200px;
+.pic {
+	width: 100%;
+	heidth: 100%;
 }
 
-footer{
-	text-align: center;
-	margin-right: 200px;
-	margin-left: 200px;
-}
-
-hr{
-	margin-right: 200px;
-	margin-left: 200px;
-}
-
-ul{
-	text-align: center;
-	list-style: none;
-}
-
-li{
-	display: inline;
-	margin: 10px;
+.link {
+	display: flex;
+	justify-content: center;
 }
